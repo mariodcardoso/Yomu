@@ -2,14 +2,15 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
-    namespace = "br.com.youme"
+    namespace = "br.com.yomu"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.com.youme"
+        applicationId = "br.com.yomu"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -46,6 +47,8 @@ dependencies {
     //Firebase
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-crashlytics-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

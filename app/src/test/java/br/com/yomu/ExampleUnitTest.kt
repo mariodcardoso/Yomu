@@ -1,4 +1,4 @@
-package br.com.youme
+package br.com.yomu
 
 import org.junit.Test
 
