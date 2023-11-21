@@ -56,6 +56,15 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-compiler:2.44")
 
+    //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+    //Moshi
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+
+    //Coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
