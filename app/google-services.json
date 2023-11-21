@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222219299016",
+    "project_id": "yomu-8f59a",
+    "storage_bucket": "yomu-8f59a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222219299016:android:46a1d48a32cb0e3307ddfd",
+        "android_client_info": {
+          "package_name": "br.com.yomu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCRzgbqqgQ8lHrogLq_mKp2akKD2FbVpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
